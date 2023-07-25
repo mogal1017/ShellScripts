@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#install nginx
+
+sudo apt-get install nginx -y
+
+#start and enabled nginx
+
+sudo service nginx start
+sudo service nginx enable
+
+#to check the status of nginx
+
+sudo service nginx status

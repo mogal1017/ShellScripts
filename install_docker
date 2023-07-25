@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#update the server
+
+sudo apt update
+
+#install docker
+
+sudo apt-get install docker.io -y
+
+#To check docker status
+
+sudo service docker status
+
+#to start docker
+
+sudo service docker start
